@@ -28,7 +28,7 @@ False
 ```
 
 ## `functools.total_ordering
-This is a decorator which, by definining one of the ``__lt__()`, `__le__()`, `__gt__()`, or `__ge__()`, in addition to the `__eq__()` magic methods, it can implicitly define all of the remaining comparison magic methods. We can improve the above example...
+This is a decorator which, by definining one of the `__lt__()`, `__le__()`, `__gt__()`, or `__ge__()`, in addition to the `__eq__()` magic methods, it can implicitly define all of the remaining comparison magic methods. We can improve the above example...
 
 ```py
 from functools import total_ordering
